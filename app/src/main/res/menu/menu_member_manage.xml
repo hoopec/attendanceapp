@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_add_member"
+        android:title="添加成员"
+        android:icon="@android:drawable/ic_input_add"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_reset_members"
+        android:title="重置成员"
+        app:showAsAction="never"/>
+
+</menu>
